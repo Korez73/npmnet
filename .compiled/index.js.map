@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["HelloWorld","sayHello"],"mappings":";;AAAA;;AACA,IAAIA,sBAAJ,GAAiBC,QAAjB","file":"index.js","sourcesContent":["import {HelloWorld} from \"./helloWorld.mjs\";\r\nnew HelloWorld().sayHello();\r\n"]}
