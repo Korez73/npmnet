@@ -21,7 +21,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\src\\server.cjs",
+            "program": "${workspaceFolder}\\src\\server.mjs",
             "outFiles": [ "${workspaceFolder}/.compiled//**/*.js"]
         }        
     ]
