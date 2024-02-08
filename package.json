@@ -22,5 +22,9 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
   }
 }

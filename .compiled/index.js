@@ -1,6 +1,11 @@
 "use strict";
 
-var _helloWorld = require("./helloWorld.mjs");
+var _apiClient = require("./apiClient.mjs");
 
-new _helloWorld.HelloWorld().sayHello();
+var apiClient = new _apiClient.ApiClient();
+apiClient.getTasks().then(function (data) {
+    console.log("I got back " + data.length + " rows");
+}).catch(function (err) {
+    console.log("Something bad happened: " + err);
+});
 //# sourceMappingURL=index.js.map
