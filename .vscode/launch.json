@@ -13,6 +13,16 @@
             ],
             "program": "${workspaceFolder}\\src\\index.js",
             "outFiles": [ "${workspaceFolder}/.compiled//**/*.js"]
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\src\\server.cjs",
+            "outFiles": [ "${workspaceFolder}/.compiled//**/*.js"]
+        }        
     ]
 }
